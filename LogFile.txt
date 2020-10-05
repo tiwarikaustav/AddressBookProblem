@@ -1,0 +1,7 @@
+2020-10-05 19:44:20.4114|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 19:44:20.4317|INFO|AddressBookSystem.NLog|Contact Created with first name: Neal last name: Caffery
+2020-10-05 19:46:02.9706|DEBUG|AddressBookSystem.NLog|Operation Unsuccessful: AddContact()
+2020-10-05 19:46:02.9706|ERROR|AddressBookSystem.NLog|Values entered by user cannot be empty string
+2020-10-05 19:46:02.9706|WARN|AddressBookSystem.NLog|Entry should not be empty
+2020-10-05 19:46:02.9706|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 19:46:02.9706|INFO|AddressBookSystem.NLog|Contact Created with first name:  last name: check
