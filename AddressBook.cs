@@ -110,5 +110,35 @@ namespace AddressBookSystem
                 }
             }
         }
+
+        public void DeleteContact()
+        {
+            bool flag = true;
+            while (flag)
+            {
+                Console.WriteLine("\nTo delete a contact enter 'first name', followed by single space, followed by 'last name'");
+                string name = Console.ReadLine();
+                if (nameToContactMapper.ContainsKey(name))
+                {
+                    ContactDetails contact = nameToContactMapper[name];
+                    var index = contactList.FindIndex(i => i == contact);
+                    if (index >= 0) contactList.RemoveAt(index);
+                    nameToContactMapper.Remove(name);
+                }
+                else
+                {
+                    Console.WriteLine("Entered Name does not match any contact");
+                }
+
+                //If multiple contacts are to be updated
+                Console.WriteLine("Do you want to delete another contact? Press Y/N");
+                string option = Console.ReadLine();
+                if (!(option != "Y" ^ option != "y"))
+                {
+                    flag = false;
+                }
+            }
+        }
+
     }
 }

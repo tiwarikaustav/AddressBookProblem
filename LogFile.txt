@@ -15,3 +15,5 @@
 2020-10-05 20:14:57.5066|INFO|AddressBookSystem.NLog|Contact Created with first name: ws last name: ws
 2020-10-05 20:56:06.2783|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
 2020-10-05 20:56:06.3178|INFO|AddressBookSystem.NLog|Contact Created with first name: Arjun last name: Pandav
+2020-10-05 22:00:16.6826|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 22:00:16.7033|INFO|AddressBookSystem.NLog|Contact Created with first name: a last name: b
