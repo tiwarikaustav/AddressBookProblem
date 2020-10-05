@@ -5,3 +5,11 @@
 2020-10-05 19:46:02.9706|WARN|AddressBookSystem.NLog|Entry should not be empty
 2020-10-05 19:46:02.9706|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
 2020-10-05 19:46:02.9706|INFO|AddressBookSystem.NLog|Contact Created with first name:  last name: check
+2020-10-05 20:06:49.8197|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 20:06:49.8279|INFO|AddressBookSystem.NLog|Contact Created with first name: bla last name: bla
+2020-10-05 20:07:11.2599|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 20:07:11.2679|INFO|AddressBookSystem.NLog|Contact Created with first name: lol last name: lol
+2020-10-05 20:14:47.8419|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 20:14:47.8573|INFO|AddressBookSystem.NLog|Contact Created with first name: qa last name: qa
+2020-10-05 20:14:57.5066|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 20:14:57.5066|INFO|AddressBookSystem.NLog|Contact Created with first name: ws last name: ws
