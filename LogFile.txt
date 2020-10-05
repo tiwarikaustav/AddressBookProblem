@@ -23,3 +23,7 @@
 2020-10-05 22:17:22.9852|INFO|AddressBookSystem.NLog|Contact updated for: qwe qwe
 2020-10-05 22:18:02.6253|DEBUG|AddressBookSystem.NLog|Operation Successful Delete Contact()
 2020-10-05 22:18:02.6253|INFO|AddressBookSystem.NLog|Contact deleted for: qwe qwe
+2020-10-06 00:16:10.8706|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-06 00:16:10.8786|INFO|AddressBookSystem.NLog|Contact Created with first name: qwe last name: qwe
+2020-10-06 00:16:36.8856|DEBUG|AddressBookSystem.NLog|Operation Successful Delete Contact()
+2020-10-06 00:16:36.8856|INFO|AddressBookSystem.NLog|Contact deleted for: qwe qwe
