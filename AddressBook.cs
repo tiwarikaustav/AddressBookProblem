@@ -7,7 +7,9 @@ namespace AddressBookSystem
     class AddressBook
     {
         private readonly NLog nLog = new NLog();
+        //declared list to store contacts
         public List<ContactDetails> contactList = new List<ContactDetails>();
+        //dictionary to map Contact Name to Contact Details; so edit/delete operations can be performed by taking Contact Name as input
         public Dictionary<string, ContactDetails> nameToContactMapper = new Dictionary<string, ContactDetails>();
 
         public void AddContact()
@@ -96,6 +98,10 @@ namespace AddressBookSystem
                     Console.WriteLine("Address: " + contact.address + "\nCity: " + contact.city);
                     Console.WriteLine("State: " + contact.state + "\nZip: " + contact.zip);
                     Console.WriteLine("Phone Number: " + contact.phoneNum + "\nEmail: " + contact.eMail);
+
+                    //Just to mark that operation was successful
+                    nLog.LogDebug("Operation Successful EditContact()");
+                    nLog.LogInfo("Contact updated for: " + contact.firstName + " " + contact.lastName);
                 }
                 else
                 {
@@ -124,6 +130,10 @@ namespace AddressBookSystem
                     var index = contactList.FindIndex(i => i == contact);
                     if (index >= 0) contactList.RemoveAt(index);
                     nameToContactMapper.Remove(name);
+
+                    //Just to mark that delete operation was successful
+                    nLog.LogDebug("Operation Successful Delete Contact()");
+                    nLog.LogInfo("Contact deleted for: " + contact.firstName + " " + contact.lastName);
                 }
                 else
                 {

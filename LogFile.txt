@@ -17,3 +17,9 @@
 2020-10-05 20:56:06.3178|INFO|AddressBookSystem.NLog|Contact Created with first name: Arjun last name: Pandav
 2020-10-05 22:00:16.6826|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
 2020-10-05 22:00:16.7033|INFO|AddressBookSystem.NLog|Contact Created with first name: a last name: b
+2020-10-05 22:17:02.9961|DEBUG|AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-05 22:17:03.0029|INFO|AddressBookSystem.NLog|Contact Created with first name: asd last name: asd
+2020-10-05 22:17:22.9852|DEBUG|AddressBookSystem.NLog|Operation Successful EditContact()
+2020-10-05 22:17:22.9852|INFO|AddressBookSystem.NLog|Contact updated for: qwe qwe
+2020-10-05 22:18:02.6253|DEBUG|AddressBookSystem.NLog|Operation Successful Delete Contact()
+2020-10-05 22:18:02.6253|INFO|AddressBookSystem.NLog|Contact deleted for: qwe qwe
